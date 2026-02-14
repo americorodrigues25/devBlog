@@ -1,7 +1,6 @@
-import { auth, db } from "../firebase/config";
+import { auth } from "../firebase/config";
 
 import {
-  getAuth,
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   updateProfile,

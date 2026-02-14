@@ -1,7 +1,7 @@
 // css
 import styles from "./Login.module.css";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 // hooks
 import { useAuthentication } from "../../hooks/useAuthentication";
@@ -10,7 +10,7 @@ const Login = () => {
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [error, setError] = useState("");
+  const [setError] = useState("");
 
   const { login, error: authError, loading } = useAuthentication();
 
@@ -24,7 +24,7 @@ const Login = () => {
       password,
     };
 
-    const res = await login(user);
+    await login(user);
 
     setEmail("");
     setPassword("");
