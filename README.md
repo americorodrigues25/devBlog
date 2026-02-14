@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+## 💻 DevBlog
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 
-## Available Scripts
+<div align="center">
+<img width="45%" style="max-width: 200px; margin: 5px;" alt="DevBlog" src="https://github.com/user-attachments/assets/13969307-846f-4aa5-b432-6494a6a39a77" />
+<img width="45%" style="max-width: 200px; margin: 5px;" alt="DevBlog2" src="https://github.com/user-attachments/assets/1b4e3cd3-b5e9-45cb-8ea2-9096f32f1aa0" />
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 📚 Sobre o projeto
+Aplicação web full-stack de blog social onde usuários podem publicar conteúdos com autenticação, filtros por hashtags e gerenciamento completo de posts.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+### ⚙️ Funcionalidades
+-  Sistema de autenticação (cadastro e login)  
+- Controle de acesso (usuários autenticados e não autenticados)  
+- Criação de posts com imagem via URL  
+- Dashboard para visualizar, editar e deletar posts  
+- Página individual para cada post (via ID)  
+- Filtro de postagens por hashtags  
+- Botão de logout  
+- Validações em formulários  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Tecnologias utilizadas
+-  [React](https://react.dev/)  
+-  [Node.js](https://nodejs.org/pt)  
+-  [Express](https://expressjs.com/)  
+-  [Firebase](https://firebase.google.com/?hl=pt-br)  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🎬 Demonstração em vídeo
+https://github.com/user-attachments/assets/1d0860f5-e333-4aae-b413-e374476dda09
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+### 🚀 Como instalar e rodar o projeto:
+```bash
+# Abra um terminal e copie este repositório com o comando:
+$ git clone https://github.com/americorodrigues25/DevBlog
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+# Acesse o diretório principal da aplicação:
+$ cd DevBlog
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Instale as dependências:
+$ npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Dentro de src, crie um diretório chamado firebase
+# Dentro deste diretório, crie o arquivo de configuração:
+$ config.js
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Caminho esperado:
+src/firebase/config.js
 
-## Learn More
+# Copie o conteúdo de `config.example.js` e substitua pelas suas próprias credenciais do Firebase.
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# Por fim, inicie a aplicação com:
+$ npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+### 📢 Publicação no LinkedIn
+[🔗 Ver post no LinkedIn](https://www.linkedin.com/posts/americo-rodrigues025_novo-projeto-no-ar-devblog-este-foi-ugcPost-7371877988004556802-WoCK/?utm_source=share&utm_medium=member_desktop)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div align="center">💻 Feito por Américo Rodrigues</div>
